@@ -50,38 +50,56 @@ nav a:hover{
 }
 
 .sidebar{
+    margin-top: 60px;
     position: fixed;
     top: 0;
     right: 0;
-    height: 100vh;
-    width: 250px;
+    height: 240px;
+    width: 150px;
     z-index: 999;
+    border-radius: 10px;
     background-color: #f0f0f0;
     box-shadow: -10px 0 10px rgba(0,0,0,0.2);
     display: none;
     flex-direction: column;
     align-items: flex-start;
     justify-content: flex-start;
+    
+    
 }
 
 .sidebar li{
+    margin-top: -7px;
     width: 100%;
 
 }
+
+.floor{
+    
+    transition: opacity 0.8s
+                background-color 0.8s;
+    font-size: 13px;
+    
+    font-weight: 500;
+    
+}
+
 
 .sidebar a{
     width: 100%;
+    transition: background-color 0.3s;
 }
 
+.sidebar a:active{
+     background-color: #dcdcdc;
+}
 .head{
     font-size: 18px;
     color: black;
     font-weight: 600;
 }
 
-.sidebar img{
-    height: 20px;
-}
+
 
 .menu{
     margin-right: -50px;
